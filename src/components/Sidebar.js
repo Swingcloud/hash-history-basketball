@@ -19,7 +19,7 @@ const CustomLink = ({ to, children }) => {
 const Sidebar = ({ title, list, loading, location, match }) => {
   return loading === true
     ? <h1>LOADING</h1>
-    : <div>
+    : console.log(location) || <div>
       <h3 className="header">
         {title}
       </h3>

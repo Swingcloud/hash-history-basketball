@@ -33,7 +33,7 @@ export default class Players extends Component {
       <div className='container two-column'>
         <Sidebar
           loading={loading}
-          jtitle="Players"
+          title="Players"
           list={players.map((player) => player.name)}
           {...this.props}
         />
